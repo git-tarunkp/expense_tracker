@@ -16,7 +16,7 @@ mongoose
 
 //! Cors config
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  origin: ["https://expense-tracker-ivory-alpha.vercel.app"],
 };
 app.use(cors(corsOptions));
 //!Middlewares
