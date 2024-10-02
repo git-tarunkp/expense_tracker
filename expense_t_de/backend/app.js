@@ -17,11 +17,11 @@ mongoose
 //! Cors config
 app.use(cors(  
 {
-    origin: "https://expense-tracker-ivory-alpha.vercel.app",
+    origin: "*",
    
     methods:["POST","GET","DELETE","PUT"]
-    // ,
-    // credentials:true
+    ,
+     credentials:true
 
     // origin: 'https://crud-ap-frontend.vercel.app',
     // optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
