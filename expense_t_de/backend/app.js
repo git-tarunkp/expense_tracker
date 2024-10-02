@@ -16,8 +16,8 @@ mongoose
 
 //! Cors config
 const corsOptions = {
-  origin: ["https://expense-tracker-ivory-alpha.vercel.app"],
-   optionsSuccessStatus: 200,
+  origin: '*',
+  optionsSuccessStatus: 200,
 };
 app.use(cors(corsOptions));
 //!Middlewares
