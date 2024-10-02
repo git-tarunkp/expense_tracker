@@ -15,11 +15,19 @@ mongoose
   .catch((e) => console.log(e));
 
 //! Cors config
-const corsOptions = {
-  origin: '*',
-  optionsSuccessStatus: 200,
-};
-app.use(cors(corsOptions));
+app.use(cors(  
+{
+    origin: "https://expense-tracker-ivory-alpha.vercel.app",
+   
+    methods:["POST","GET","DELETE","PUT"]
+    // ,
+    // credentials:true
+
+    // origin: 'https://crud-ap-frontend.vercel.app',
+    // optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
+    // methods:["POST","GET","DELETE","PUT"]
+}
+    ))
 //!Middlewares
 app.use(express.json()); //?Pass incoming json data
 //!Routes
