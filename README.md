@@ -31,9 +31,9 @@ and from database do allow other ips]
 
 
 ## Demo
-[Include a link to a live demo here, if available, or add screenshots:](https://expense-tracker-ivory-alpha.vercel.app/)
+[website hosted link](https://expense-tracker-ivory-alpha.vercel.app/)
 
-![Screenshot of Expense Tracker](URL-to-screenshot)
+
 
 ## Installation
 Follow these steps to set up the project locally:
