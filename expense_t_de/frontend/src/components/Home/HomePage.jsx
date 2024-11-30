@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
     <>
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 text-white py-20 px-4">
+      <div className="bg-gradient-to-r from-green-300 to-green-600 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto flex flex-col items-center">
           {/* Heading */}
           <h1 className="text-5xl font-bold text-center">
@@ -93,7 +93,7 @@ const HeroSection = () => {
               "This app has revolutionized the way I track my expenses. Highly
               intuitive and user-friendly."
             </p>
-            <p className="mt-4 font-bold">- Jane Doe</p>
+            <p className="mt-4 font-bold">- Tarun</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <FaQuoteLeft className="text-xl text-gray-400" />
@@ -101,7 +101,7 @@ const HeroSection = () => {
               "Finally, a hassle-free way to manage my finances. The insights
               feature is a game changer!"
             </p>
-            <p className="mt-4 font-bold">- John Smith</p>
+            <p className="mt-4 font-bold">- Anurag</p>
           </div>
         </div>
       </div>
