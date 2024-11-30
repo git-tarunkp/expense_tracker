@@ -51,7 +51,7 @@ const usersController = {
     }
     //! Generate a token
     const token = jwt.sign({ id: user._id }, "masynctechKey", {
-      expiresIn: "30d",
+      expiresIn: "20d",
     });
     //!Send the response
     res.json({
